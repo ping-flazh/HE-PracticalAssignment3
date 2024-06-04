@@ -35,7 +35,9 @@ The following is the result after tuning the parameter with GridSearchCV
 
 ![GridSearchCV](images/Table-GridSearchCV.png)
 
-Random Forest seems to produce the highest score and with Decision Tree is very close but Decision Tree took time faster than Random Forest.
+Decision Tree seems to produce the highest score followed by Random Forest and Decision Tree took much faster than Random Forest model.
+
+The following shows several comparison for Train Time, Train Accuracy and Test Accuracy.
 
 Train Time Comparison
 ![TrainTime](images/TrainTime.png)
@@ -46,7 +48,9 @@ Train Accuracy Comparison
 Test Accuracy Comparison
 ![TestAccuracy](images/TestAccuracy.png)
 
-Conclusion:
-Even though I tuned up the parameters, the test accuracy scores are not much different with basic models without tuning any parameters.
+## Conclusion:
+After tuning up the hyperparameters, the test accuracy scores went a little higher than the basic models. We can try tuning with more combination of hyperparameters which may get a better result although it will take much longer time depending on how many more parameters we want to add.
 
-I tried to provide more parameters with the hope that it can increase the accuracy but I had to stop the process since it took quite long in my computer.
+With the tuned hyperparameters that is used in this exercise, we can conclude that the "contact duration" seems to be important because it affects the output target the most. 
+
+![Importance](images/Importance.png)
