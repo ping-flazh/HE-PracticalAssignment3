@@ -39,13 +39,13 @@ Decision Tree seems to produce the highest score followed by Random Forest and D
 
 The following shows several comparison for Train Time, Train Accuracy and Test Accuracy.
 
-Train Time Comparison
+Train Time Comparison\
 ![TrainTime](images/TrainTime.png)
 
-Train Accuracy Comparison
+Train Accuracy Comparison\
 ![TrainAccuracy](images/TrainAccuracy.png)
 
-Test Accuracy Comparison
+Test Accuracy Comparison\
 ![TestAccuracy](images/TestAccuracy.png)
 
 ## Conclusion:
@@ -53,4 +53,4 @@ After tuning up the hyperparameters, the test accuracy scores went a little high
 
 With the tuned hyperparameters that is used in this exercise, we can conclude that the "contact duration" seems to be important because it affects the output target the most. 
 
-![Importance](images/Importance.png)
+![Importance](images/importance.png)
